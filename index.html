@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Саска Валентин</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="slider_container">
+        <div class="myslide fade">
+            <img src="1.jpg" style="width:100%" alt="">
+            <div class="text">Мем 1</div>
+        </div>
+        <div class="myslide fade">
+            <img src="2.jpg" style="width:100%" alt="">
+            <div class="text">Мем 2</div>
+        </div>
+        <div class="myslide fade">
+            <img src="3.jpg" style="width:100%" alt="">
+            <div class="text">Мем 2</div>
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+    <a class="next" onclick="plusSlides(1)">&#10095</a>
+    <div style="text-align:center;">
+        <span class="slider_pointer" onclick="currentSlide(1)"></span>
+        <span class="slider_pointer" onclick="currentSlide(2)"></span>
+        <span class="slider_pointer" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
